@@ -15,7 +15,8 @@ const initialState = {
   delivery:'',
   address:'',
   city:'',
-  comments:''
+  comments:'',
+  synagogue:''
 }
 
 class UserForm extends React.Component {
@@ -142,6 +143,13 @@ Delivery($25)</label>
         />
 </div> 
 {/* <label for="comments"> Comments </label> */}
+<label htmlFor="synagogue"> Are you a synagogue member? If so, which one: </label> 
+<input
+          name="synagogue"
+          placeholder="My Synagogue"
+          value={this.state.synagogue}
+          onChange={this.handleChange}
+        />
 <br/>
  <textarea name="comments" placeholder="Comments" onChange={this.handleChange} value={this.state.comments}></textarea>
  <br/>
