@@ -19,9 +19,7 @@ body {
   width: 75%;
   background-color: #f1f1f1;
   text-align: center;
-
 }
-
 
 body {
   margin: 0;
@@ -139,9 +137,22 @@ main {
   }
 }
 
-
-
 .hidden { display:none; }
+
+.sidebar-main{
+  padding: 10px 2%;
+  max-width: 1200px;
+  margin: 10px auto 0 auto;
+  width: 75%;
+  background-color: #f1f1f1;
+  stext-align: center;
+ 
+}
+
+.sidebar-main li{
+  padding-top: 5px;
+  margin-left: -5px;
+}
 
 .wpforms-container-full {   
    width: 80%;

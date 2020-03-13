@@ -184,19 +184,13 @@ class FloatCart extends Component {
             </div>
           </div>
         </div>
-
-
-
-        <div className={this.state.isFinalCheckout === false? 'hidden' : 'float-cart__content'}>
-  
+        <div className={this.state.isFinalCheckout === false? 'hidden' : 'float-cart__content'}> 
            <div className="float-cart__header">
             <span className="header-title">Customer Details</span>
             <p className="title">An invoice will be sent to your email. The order will be finalized after the invoice is paid.</p>
             <UserForm/>
         </div>
-       </div>
-
-
+        </div>
         </div>
     );
   }
