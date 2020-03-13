@@ -1,5 +1,5 @@
 {
-  "name": "react-shopping-cart",
+  "name": "bishulim-cart",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -66,5 +66,5 @@
   },
   "keywords": [],
   "description": "Shopping cart",
-  "homepage": "http://nadavys.github.io/shopping-cart"
+  "homepage": "https://passover.bishulimsf.com/"
 }
