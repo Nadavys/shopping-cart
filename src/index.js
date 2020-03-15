@@ -4,8 +4,6 @@ import ReactDOM from 'react-dom';
 
 import App from './components/App';
 import Root from './Root';
-
-import 'bootstrap/dist/css/bootstrap.css';
 import './index.scss';
 
 
