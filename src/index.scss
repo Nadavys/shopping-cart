@@ -130,7 +130,7 @@ main {
         width: 50%;
 
         &__buy-btn {
-          display: none;
+          // display: none;
         }
       }
     }
@@ -158,6 +158,7 @@ main {
    width: 80%;
   display: flex;
   flex-wrap: wrap;
+  margin: 0 auto;
 }
 
 
@@ -172,6 +173,7 @@ div.wpforms-container-full .wpforms-form input, div.wpforms-container-full .wpfo
   margin: 2px;
   padding: 1px;
   background: #f2f2f2;
+
 }
 /* Button */
 div.wpforms-container-full .wpforms-form input[type=submit] {
