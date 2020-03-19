@@ -119,13 +119,14 @@ class UserForm extends React.Component {
         />
 
 <br/>
+<br/>
 
-<label >
+<label className="radio">
 <input type="radio"  name="delivery" value="false" onChange={this.handleChange} required/>
-Self Pickup</label>
-<label>
+<span class="accessible">Self Pickup</span></label>
+<label className="radio">
 <input type="radio" name="delivery" value="true"   onChange={this.handleChange} required/>
-Delivery($25)</label>
+<span class="accessible">Delivery($25)</span></label>
 <div className={this.state.delivery === 'false' ? 'hidden' : ''} >
 <p>Delivery is available for the east bay locations only</p>
 <input
@@ -142,8 +143,10 @@ Delivery($25)</label>
           onChange={this.handleChange}
         />
 </div> 
+<br/>
 {/* <label for="comments"> Comments </label> */}
 <label htmlFor="synagogue"> Are you a synagogue member? If so, which one: </label> 
+<br/>
 <input
           name="synagogue"
           placeholder="My Synagogue"

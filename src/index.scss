@@ -137,6 +137,10 @@ main {
   }
 }
 
+.final-checkout-title{
+  padding: 4px;
+}
+
 .hidden { display:none; }
 
 .sidebar-main{
@@ -185,10 +189,53 @@ div.wpforms-container-full .wpforms-form input[type=submit] {
 }
 
 
-div.wpforms-container-full .wpforms-form label{
-  color: white;
-  font-weight: normal;
-  cursor: pointer;
-  display: inline-block;
+// div.wpforms-container-full .wpforms-form label{
+//   color: white;
+//   font-weight: normal;
+//   cursor: pointer;
+//   display: inline-block;
  
+// }
+
+ div.wpforms-container-full .wpforms-form label.radio{
+   padding-left:10px;
 }
+
+div.wpforms-container-full .wpforms-form  [type="radio"] {
+  border: 0; 
+  clip: rect(0 0 0 0); 
+  height: 1px; margin: -1px; 
+  overflow: hidden; 
+  padding: 1px; 
+  position: absolute; 
+  width: 1px;
+}
+
+
+[type="radio"] + span::before {
+  content: '';
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.25em;
+  border-radius: 1em;
+  border: 0.125em solid #fff;
+  box-shadow: 0 0 0 0.15em #000;
+  margin-right: 0.75em;
+  transition: 0.5s ease all;
+  margin-right:5px;
+}
+
+
+[type="radio"]:checked + span::before {
+  background: green;
+  box-shadow: 0 0 0 0.25em #000;
+}
+
+
+// [type="radio"]:focus + span::after {
+//   content: '\0020\2190';
+//   font-size: 1.5em;
+//   line-height: 1;
+//   vertical-align: -0.125em;
+// }
