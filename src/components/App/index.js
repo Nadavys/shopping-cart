@@ -22,6 +22,7 @@ All kosher Ingredients (no kitniyot - legumes). The meal will be cooked at Templ
 <li>Orders must be placed before April 1st.</li>
 <li>Part of proceeds will be donated to Temple Beth Abraham </li>
 <li>Prices include taxes and fees</li>
+<li>(V)=Vegetarian (VE)=Vegan (GF)=Gluten Free</li>
 <li><b>The menu is subject to change due to avialablity of Ingredients</b></li>
 
 </ul>
