@@ -14,7 +14,6 @@ const Product = ({ product, addProduct }) => {
 
   let formattedPrice = formatPrice(product.price, product.currencyId);
 
-
   return (
     <div
       className="shelf-item"
@@ -24,11 +23,6 @@ const Product = ({ product, addProduct }) => {
       {product.isFreeShipping && (
         <div className="shelf-stopper">Free shipping</div>
       )}
-      {/* <Thumb
-        classes="shelf-item__thumb"
-        src={require(`../../../../static/products/${product.sku}_1.jpg`)}
-        alt={product.title}
-      /> */}
       <p className="shelf-item__title">{product.title}</p>
       <p className="shelf-item__title2">{product.description}</p>
       <div className="shelf-item__price">
