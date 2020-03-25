@@ -39,7 +39,7 @@ const App = () => (
     <p>© 2020 - Bishulimsf</p>
   </div>
   <div className="social">
-    <a href="https://www.bishulimsf.com/" className="support" target="_blank" >Bishilimsf.com</a>
+    <a href="https://www.bishulimsf.com/" className="support" target="_blank" >Bishulimsf.com</a>
     <a href="https://www.facebook.com/bishulimsf/" className="face" target="_blank"><span class="fa fa-facebook"></span></a>
     <a href="https://www.instagram.com/bishulim_sf/" className="instagram" target="_blank"><span class="fa fa-instagram"></span></a>
   </div>
