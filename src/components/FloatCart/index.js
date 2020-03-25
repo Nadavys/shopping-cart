@@ -188,7 +188,7 @@ class FloatCart extends Component {
            <div className="float-cart__header">
             <span className="header-title">Customer Details</span>
             <p className="final-checkout-title">An invoice will be sent to your email.<br/> The order will be finalized after the invoice is paid. If you dont recive an invoice promptly, please contact us.</p>
-            <UserForm/>
+            <UserForm triggerSuccessModal={this.props.triggerSuccessModal}/>
         </div>
         </div>
         </div>
