@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
 
 body {
   margin: 0;
@@ -278,7 +279,7 @@ $dk-blue: #1E83AE;
 $blue: #3D5B94;
 $light-blue: #3DACDD;
 $green: #6dcd9a;
-$social-size: 1.2em;
+$social-size: 1.6em;
 $social-width: 20%;
 
 
@@ -327,8 +328,8 @@ footer {
 }
 
 .instagram {
-  background-color: #231F20;
-  font-size: $social-size;
+  background-color: #cd486b;
+  font-size:$social-size;
   width: $social-width;
 }
 
