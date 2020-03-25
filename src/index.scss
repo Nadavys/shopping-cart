@@ -143,15 +143,6 @@ main {
 
 .hidden { display:none; }
 
-.sidebar-main{
-  padding: 10px 2%;
-  max-width: 1200px;
-  margin: 10px auto 0 auto;
-  width: 75%;
-  background-color: #d3d99c;
-  stext-align: center;
- 
-}
 
 .sidebar-main li{
   padding-top: 5px;
@@ -239,3 +230,117 @@ div.wpforms-container-full .wpforms-form  [type="radio"] {
 //   line-height: 1;
 //   vertical-align: -0.125em;
 // }
+//header
+
+
+.mainheader{
+  background-color: #56869b;
+  padding: 34px 0 0 0;
+  
+}
+
+.mainheader .center{
+  max-width: 1200px;
+  // margin: auto 0;
+  margin: 0 auto;
+
+}
+
+
+
+.sidebar-main{
+  padding: 2px 0 5px 0;
+  // max-width: 1000px;
+  margin: 10px auto 0 auto;
+  width: 75%;
+
+ 
+}
+
+.mainheader h1 { color: #CEF0D4; font-family: 'Rouge Script', cursive; font-size: 60px; font-weight: normal; line-height: 48px; margin: 0 0 10px; text-align: center; text-shadow: 1px 1px 2px #082b34; }
+
+
+.mainheader h2 { color: #a7e8f8; font-family: 'Julius Sans One', sans-serif; font-size: 22px; font-weight: bold; line-height: 32px; margin: 0 0 0px; text-shadow: 1px 1px 1px #082b34;  text-align: center; }
+
+
+.mainheader p, .mainheader li { color: #FFFFFF; font-family: 'Carme', sans-serif; font-size: 16px; line-height: 24px;  }
+
+
+.mainheader a { color: #CEF0D4; text-decoration: underline; }
+
+
+.mainheader a:hover { color: #a7e8f8; text-decoration: underline; }
+
+
+
+
+$dk-blue: #1E83AE;
+$blue: #3D5B94;
+$light-blue: #3DACDD;
+$green: #6dcd9a;
+$social-size: 1.2em;
+$social-width: 20%;
+
+
+
+footer {
+  margin-bottom: -4px;
+  width: 100%;
+  display: inline-block;
+  
+  // height: 70px;
+  background-color: #56869b;
+  .copyright {
+    width: 50%;
+    float: left;
+    @media (max-width: 600px) {
+      width: 100%;
+    }
+    p {
+      padding-left: 10%;
+      color: white;
+      font-size: 0.7em;
+      line-height: 50px;
+      text-transform: capitalize;
+      letter-spacing: 1px;
+      @media (max-width: 600px) {
+        text-align: center;
+        padding: 0;
+      }
+    }
+  }
+  .social {
+      width: 50%;
+      float: right;
+    @media (max-width: 600px) {
+      width: 100%;
+    }
+     a {
+      float: left;
+      line-height: 70px;
+      text-decoration: none;
+      color: white;
+      text-align: center;
+      font-weight: bold; 
+    }
+  }
+}
+
+.instagram {
+  background-color: #231F20;
+  font-size: $social-size;
+  width: $social-width;
+}
+
+.face {
+  background-color: $blue;
+  font-size: $social-size;
+  width: $social-width;
+}
+
+
+.support {
+  background-color: $green;
+  // font-size: 0.8em;
+  width: 40%;
+}
