@@ -49,7 +49,7 @@ const App = () => {
     <FloatCart triggerSuccessModal={triggerSuccessModal} />
 
     {showSuccessModal()}
-    <button onClick={()=>triggerSuccessModal("asdasdasd")}>xxx</button>
+    
     <footer>
       <div className="copyright">
         <p>© 2020 - Bishulimsf</p>

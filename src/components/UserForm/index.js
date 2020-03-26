@@ -21,15 +21,12 @@ const initialState = {
 class UserForm extends React.Component {
   constructor(props) {
     super(props);
-
     this.state = initialState;
-
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
   }
 
   handleChange(event) {
-
     console.log('event', event)
     const target = event.target;
     const value = target.value;
