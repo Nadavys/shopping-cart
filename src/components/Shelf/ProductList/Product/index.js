@@ -33,7 +33,11 @@ const Product = ({ product, addProduct }) => {
         </div>
         
       </div>
-      <div className="shelf-item__buy-btn">Add to cart</div>
+      {product.soldout ? (
+      <div className="shelf-item__sold-out">Sold Out</div>
+      ) : (
+      <div className="shelf-item__buy-btn">Add to cart</div> 
+      )}
     </div>
   );
 };

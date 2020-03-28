@@ -50,6 +50,11 @@
       .shelf-item__buy-btn {
         background-color: #eabf00;
       }
+
+
+      .shelf-item__sold-out {
+        background-color: #aaa;
+      }
     }
 
     .shelf-stopper {
@@ -113,6 +118,17 @@
 
     &__buy-btn {
       background-color: #1b1a20;
+      color: #fff;
+      padding: 15px 0;
+      margin-top: 10px;
+      cursor: pointer;
+      // border-bottom: 2px solid #151419;
+
+      transition: background-color 0.2s;
+    }
+
+    &__sold-out {
+      background-color: #aaa;
       color: #fff;
       padding: 15px 0;
       margin-top: 10px;

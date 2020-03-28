@@ -1,9 +1,9 @@
 {
   "products": [
     {
-      "id": "chopped-liver",
+      "id": "chopped-liver (GF)",
       "title": "Chopped Liver",
-      "description": "Aliza's Chopped Liver",
+      "description": "Chicken liver with Hard boiled eggs and grilled onions",
       "style": "",
       "price": 6,
       "currencyId": "USD",
@@ -11,8 +11,8 @@
     },
     {
       "id": "horseradish",
-      "title": "Red horseradish",
-      "description": "Aliza's Red horseradish (V)",
+      "title": "Red Horseradish (V)(GF)",
+      "description": "Horseradish with beets (Spicy) ",
       "style": "",
       "price": 4,
       "currencyId": "USD",
@@ -20,17 +20,18 @@
     },
     {
       "id": "haroset",
-      "title": "haroset",
-      "description": "Aliza's haroset (V)",
+      "title": "Haroset (VE, GF)",
+      "description": "Dates, almonds, red wine and dried fruit",
       "style": "",
       "price": 4,
       "currencyId": "USD",
-      "currencyFormat": "$"
+      "currencyFormat": "$",
+      "soldout": true
     },
     {
       "id": "fish-patties",
       "title": "Fish Patties",
-      "description": "Tunesian Fish Patties in red sauce",
+      "description": "Tunesian Fish Patties in Red Sauce",
       "style": "",
       "price": 10,
       "currencyId": "USD",
@@ -39,19 +40,18 @@
   
     {
       "id": "eggplant-in-sauce",
-      "title": "Eggplant in Tunesian red sauce (VG)",
-      "description": "Eggplant in Tunesian red sauce (VG)",
+      "title": "Eggplant in Tunesian Red Sauce (VG)(GF)",
+      "description": "Eggplant in Tunesian red sauce",
       "style": "",
       "price": 7,
       "currencyId": "USD",
       "currencyFormat": "$"
     },
-  
 
     {
       "id": "chicken-matzo-soup",
-      "title": "chicken matzo ball Soup",
-      "description": "chicken matzo ball Soup",
+      "title": "Chicken Matzo Ball Soup",
+      "description": "",
       "style": "",
       "price": 8,
       "currencyId": "USD",
@@ -61,8 +61,8 @@
 
     {
       "id": "vegetarian-matzo-soup",
-      "title": "Vegetarian matzo ball Soup",
-      "description": "Vegetarian matzo ball Soup",
+      "title": "Vegetarian Matzo Ball Soup (V)",
+      "description": "",
       "style": "",
       "price": 6,
       "currencyId": "USD",
@@ -70,18 +70,17 @@
     },
     {
       "id": "vegetarian-soup",
-      "title": "Vegetarian Soup",
-      "description": "Vegetarian Soup",
+      "title": "Vegetarian Soup (V)(GF)",
+      "description": "Mixture of vegetables",
       "style": "",
       "price": 4,
       "currencyId": "USD",
       "currencyFormat": "$"
     },
 
-
     {
       "id": "chicken-thigh-vegetables",
-      "title": "Chicken thigh With sweet potatos and vegetables",
+      "title": "Roasted Chicken Thigh with Sides of Sweet Potatos and Vegetables (GF)",
       "description": "",
       "style": "",
       "price": 12,
@@ -89,10 +88,9 @@
       "currencyFormat": "$"
     },
 
-
     {
       "id": "beef-stew-vegatables",
-      "title": "Beef Stew with Sweet potatos and vegetables",
+      "title": "Beef Stew with Sides of Sweet potatos and vegetables (GF)",
       "description": "",
       "style": "",
       "price": 15,
@@ -102,8 +100,17 @@
 
 
     {
+      "id": "quinoa-stew-vegatables",
+      "title": "Quinoa Stew with Sides of Sweet potatos and Vegetables (V)(GF)",
+      "description": "",
+      "style": "",
+      "price": 10,
+      "currencyId": "USD",
+      "currencyFormat": "$"
+    },
+    {
       "id": "quinoa-stew",
-      "title": "Quinoa stew with vegetables",
+      "title": "Quinoa Stew with Vegetables Solo (V)(GF)",
       "description": "Vegan",
       "style": "",
       "price": 4,
@@ -113,7 +120,7 @@
 
     {
       "id": "beef-stew-1",
-      "title": "Beef Stew Solo",
+      "title": "Beef Stew Solo (GF)",
       "description": "",
       "style": "",
       "price": 9,
@@ -122,18 +129,16 @@
     },
     {
       "id": "chicken-thigh-1",
-      "title": "Chicken thigh solo",
+      "title": "Chicken thigh Solo (GF)",
       "description": "",
       "style": "",
       "price": 6,
       "currencyId": "USD",
       "currencyFormat": "$"
     },
-
-
     {
       "id": "vegetables-side",
-      "title": "Sweet potatos and vegetables solo",
+      "title": "Side only - Sweet Potatos and Vegetables (V)(GF)",
       "description": "",
       "style": "",
       "price": 6,
@@ -144,20 +149,75 @@
     {
       "id": "cookies-1",
       "title": "Cookies plate",
-      "description": "",
+      "description": "Almond cookies and coconut cookies (GF)",
       "style": "",
       "price": 4,
       "currencyId": "USD",
       "currencyFormat": "$"
     },
     {
-      "id": "malabi",
-      "title": "Malabi",
-      "description": "",
+      "id": "Malabi",
+      "title": "Malabi (GF)(VE)",
+      "description": "Coconut pudding with rosewater. Cinnamon and coconut toppings",
       "style": "",
       "price": 4,
       "currencyId": "USD",
       "currencyFormat": "$"
+    },
+    {
+      "id": "seder-plate-disposable",
+      "title": "Add-on: Disposable Seder Plate including Six Seder Plate Ingredients",
+      "description": "",
+      "style": "",
+      "price": 12,
+      "currencyId": "USD",
+      "currencyFormat": "$"
+    },
+    {
+      "id": "seder-plate-ceramic",
+      "title": "Add-on: Ceramic Seder Plate including Six Seder Plate Ingredients",
+      "description": "",
+      "style": "",
+      "price": 60,
+      "currencyId": "USD",
+      "currencyFormat": "$"
+    },
+    {
+      "id": "white-wine",
+      "title": "Add-on: White Wine Bottle. Kosher for Passover",
+      "description": "",
+      "style": "",
+      "price": 22,
+      "currencyId": "USD",
+      "currencyFormat": "$"
+    },
+    {
+      "id": "red-wine",
+      "title": "add-on: Red Wine Bottle. Kosher for Passover",
+      "description": "",
+      "style": "",
+      "price": 22,
+      "currencyId": "USD",
+      "currencyFormat": "$"
+    },
+    {
+      "id": "gefilte-fish",
+      "title": "Gefilte Fish Jar",
+      "description": "Store bought",
+      "style": "",
+      "price": 25,
+      "currencyId": "USD",
+      "currencyFormat": "$"
+    },
+        {
+      "id": "matzo-box",
+      "title": "Matzo Box",
+      "description": "10.4 ounces",
+      "style": "",
+      "price": 6,
+      "currencyId": "USD",
+      "currencyFormat": "$"
     }
+
   ]
 }

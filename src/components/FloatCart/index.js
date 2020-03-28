@@ -52,6 +52,7 @@ class FloatCart extends Component {
   };
 
   addProduct = product => {
+    if(product.soldout){ return }
     const { cartProducts, updateCart } = this.props;
     let productAlreadyInCart = false;
 
