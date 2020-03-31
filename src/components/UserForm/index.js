@@ -134,7 +134,7 @@ class UserForm extends React.Component {
             <input type="radio" name="delivery" value="true" onChange={this.handleChange} required />
             <span className="accessible">Delivery($25)</span></label>
           <div className={this.state.delivery === 'false' ? 'hidden' : ''} >
-            <p>Delivery is available for Bay Area locations only</p>
+            <p>Delivery is available for Easy Bay Area locations ONLY.</p>
             <input
               name="address"
               placeholder="Delivery Address"

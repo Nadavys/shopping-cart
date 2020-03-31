@@ -2,12 +2,13 @@
   "products": [
     {
       "id": "chopped-liver (GF)",
-      "title": "Chopped Liver",
+      "title": "Chopped Liver (GF)",
       "description": "Chicken liver with Hard boiled eggs and grilled onions",
       "style": "",
       "price": 6,
       "currencyId": "USD",
-      "currencyFormat": "$"
+      "currencyFormat": "$",
+      "soldout": false
     },
     {
       "id": "horseradish",
@@ -25,8 +26,7 @@
       "style": "",
       "price": 4,
       "currencyId": "USD",
-      "currencyFormat": "$",
-      "soldout": true
+      "currencyFormat": "$"
     },
     {
       "id": "fish-patties",
@@ -165,13 +165,23 @@
       "currencyFormat": "$"
     },
     {
+      "id": "seder-ingredients-only",
+      "title": "Traditional Six Seder Plate Ingredients only - No Plate",
+      "description": "Includes the shankbone, karpas, chazeret, charoset, maror, and egg. Place them on your family Seder plate.",
+      "style": "",
+      "price": 11,
+      "currencyId": "USD",
+      "currencyFormat": "$"
+    },
+    {
       "id": "seder-plate-disposable",
       "title": "Add-on: Disposable Seder Plate including Six Seder Plate Ingredients",
       "description": "",
       "style": "",
       "price": 12,
       "currencyId": "USD",
-      "currencyFormat": "$"
+      "currencyFormat": "$",
+      "soldout": true
     },
     {
       "id": "seder-plate-ceramic",
@@ -180,7 +190,8 @@
       "style": "",
       "price": 60,
       "currencyId": "USD",
-      "currencyFormat": "$"
+      "currencyFormat": "$",
+      "soldout": true
     },
     {
       "id": "white-wine",
@@ -193,7 +204,7 @@
     },
     {
       "id": "red-wine",
-      "title": "add-on: Red Wine Bottle. Kosher for Passover",
+      "title": "Add-on: Red Wine Bottle. Kosher for Passover",
       "description": "",
       "style": "",
       "price": 22,
@@ -202,7 +213,7 @@
     },
     {
       "id": "gefilte-fish",
-      "title": "Gefilte Fish Jar",
+      "title": "Add-on:  Gefilte Fish Jar",
       "description": "Store bought",
       "style": "",
       "price": 25,
@@ -211,13 +222,12 @@
     },
         {
       "id": "matzo-box",
-      "title": "Matzo Box",
+      "title": "Add-on: Matzo Box",
       "description": "10.4 ounces",
       "style": "",
       "price": 6,
       "currencyId": "USD",
       "currencyFormat": "$"
     }
-
   ]
 }
