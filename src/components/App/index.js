@@ -30,7 +30,7 @@ const App = () => {
             <li>All kosher Ingredients (no kitniyot - legumes). </li>
             <li>The meal will be cooked at Temple Beth Abraham’s kosher for Passover kitchen.</li>
             <li>Portions are per person</li>
-            <li>New Delivery requests are available for Easy Bay Area locations ONLY (Sorry). $25 per delivery.</li>
+            <li>New Delivery requests are available for Easy Bay Area locations ONLY. $25 per delivery.</li>
             <li>Delivery on April 8th</li>
             <li>Pick up on April 8th from Temple Beth Abraham in Oakland </li>
             <li>Orders must be placed before April 1st.</li>
