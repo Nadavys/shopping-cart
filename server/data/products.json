@@ -8,7 +8,7 @@
       "price": 6,
       "currencyId": "USD",
       "currencyFormat": "$",
-      "soldout": false
+      "soldout": true
     },
     {
       "id": "horseradish",
@@ -55,7 +55,8 @@
       "style": "",
       "price": 8,
       "currencyId": "USD",
-      "currencyFormat": "$"
+      "currencyFormat": "$",
+      "soldout": true
     },
 
 
@@ -66,7 +67,8 @@
       "style": "",
       "price": 6,
       "currencyId": "USD",
-      "currencyFormat": "$"
+      "currencyFormat": "$",
+      "soldout": true
     },
     {
       "id": "vegetarian-soup",
@@ -117,7 +119,6 @@
       "currencyId": "USD",
       "currencyFormat": "$"
     },
-
     {
       "id": "beef-stew-1",
       "title": "Beef Stew Solo (GF)",
@@ -162,7 +163,8 @@
       "style": "",
       "price": 4,
       "currencyId": "USD",
-      "currencyFormat": "$"
+      "currencyFormat": "$",
+      "soldout": true
     },
     {
       "id": "seder-ingredients-only",
